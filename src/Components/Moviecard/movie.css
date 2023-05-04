@@ -1,0 +1,46 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main{
+    display:flex;
+}
+.card{
+    background-color: wheat;
+    border:1px solid block;
+    width:300px;
+    padding:20px;
+    margin:20px;
+    overflow: hidden;
+    border-radius:5px;
+    box-shadow: 2px 2px 5px grey;
+}
+.card-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding:12px;
+
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+
+}
+.card-rating{
+    background-color: blanchedalmond;
+    border-radius: 2px;
+    color: aquamarine;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+}
+.card-body{
+    padding: 12px;
+}
+.card-body-relese{
+    font-size: 14px;
+    margin: 0;
+}
